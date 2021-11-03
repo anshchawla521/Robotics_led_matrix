@@ -1,7 +1,9 @@
 from typing import Text
 import telebot
 import time
-bot_token='2015065858:AAEcP14C5MKLEuoc9K4AZxqEJpjFAqwXi2k'
+import credentials
+
+bot_token=credentials.bot_token
 
 bot = telebot.TeleBot(token = bot_token)
 
