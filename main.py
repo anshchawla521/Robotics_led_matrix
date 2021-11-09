@@ -72,4 +72,3 @@ def get_message():
 
 if __name__ == '__main__':
     get_message() # implement a loop so that this bot checks for messages every 10 seconds or maybe multi threading
-    check_len
