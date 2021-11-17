@@ -2,6 +2,7 @@ from typing import Text
 import telebot
 import time
 import credentials 
+import character_map
 
 h=0
 messages_list=[]
@@ -57,7 +58,7 @@ def get_message():
             a=[int(h),message.chat.id]
             messages_list.append(a)
         else:
-            bot.reply_to(message,'Your request is alredy in queue')
+            bot.reply_to(message,'Your request is already in queue')
         check_len()
         print(messages_list)
     
