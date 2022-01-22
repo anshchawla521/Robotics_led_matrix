@@ -1,2 +1,0 @@
-#!yz9
-# siddhart

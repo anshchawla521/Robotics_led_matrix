@@ -1,2 +1,4 @@
 venv/
 credentials.py
+__pycache__/
+character_map/__pycache__
