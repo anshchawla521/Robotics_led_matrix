@@ -1,38 +1,87 @@
 # Led matrix using RPi ,ws2811 and telegram bot api
 
-> A file by the name credentails.py must be placed inside the root directory of project. The contents of this file should be `bot_token = 'Your bot token'`
+## Description
+
+## Tasks
+
+___
+
+### Overall Project
+
+- [x] Implement the telegram bot using API
+- [ ] Improve Interface for Telegram Chatbot
+- [x] Define Character Map
+- [ ] Displaying of string in matrix
+- [ ] Scrolling of string in matrix
+- [ ] linking of LED matrix to the 2D array in code
+
+### Ansh Chawla
+
+- [x] Guide everyone
+- [x] link files
+
+### Harsh Kumar
+
+- [x] Guide everyone
+- [x] Write code and design interface for telegram chat bot
+
+### Shubham Singla
+
+- [x] Guide everyone
+- [x] Write code and design interface for telegram chat bot
+
+### Ankit Rupal
+
+- [x] Implement Character mapping for letter A , B , C , 1
+- [x] Write code for compiling Character map arrays into dict
+
+### Mayur Garg
+
+- [x] Implement Character mapping for letter G , H , I , 3
+
+### Saksham
+
+- [x] Implemented Character mapping for letter Y , Z , ! , 3
+
+### Kanishk
+
+- [x] Implemented Character mapping for letter M , N , O , 5
+
+### Mayank
+
+- [x] Implemented Character mapping for letter V , W , X , 8
+
+&nbsp;
 
 ## Installation and getting started
 
+___
+
 To install all the neccessary requirements run the following commands
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
-## Setting up the virtual environment
+> Note : This way is not recommended as all libraries would be installed globally.
 
-> Note : It is recommended to setup a virtual environment and then run the program
+### Setting up the virtual environment
 
-```
+> Note : It is recommended to setup a virtual environment and then run the program.
+
+```bash
 py -m pip venv ./venv  #creating virtual environment
 venv\Scripts\activate  #to activate the environment after creation
 pip install -r requirements.txt # for installation of libraries
 
 ```
 
-## For running the program
+### For running the program
 
 Run the main.py file using
 
-```
+```python
 python main.py
 ```
 
-## Tasks-
-
-- [x] Implement the telegram bot using API
-- [ ] Define Character Map
-- [ ] Displaying of string in matrix
-- [ ] Scrolling of string in matrix
-- [ ] linking of LED matrix to the 2D array in code
+> Note : A file by the name credentails.py must be placed inside the root directory of project. The contents of this file should be `bot_token = 'Your bot token'`
