@@ -2,9 +2,9 @@
 
 ## Description
 
-## Tasks
+Led matrix which displays messages sent to a telegram chat bot .This is being made using python ,raspberry pi and ws2811 individually addressably led. This is a group project which is being developed by a group of students interested in robotics🙂.
 
-___
+## Tasks
 
 ### Overall Project
 
@@ -55,8 +55,6 @@ ___
 
 ## Installation and getting started
 
-___
-
 To install all the neccessary requirements run the following commands
 
 ```bash
@@ -84,4 +82,8 @@ Run the main.py file using
 python main.py
 ```
 
-> Note : A file by the name credentails.py must be placed inside the root directory of project. The contents of this file should be `bot_token = 'Your bot token'`
+> Note : A file by the name credentails.py must be placed inside the root directory of project. The contents of this file should be as shown below
+
+```python
+bot_token = 'Your bot token'
+```
