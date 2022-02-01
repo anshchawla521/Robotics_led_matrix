@@ -15,41 +15,53 @@ Led matrix which displays messages sent to a telegram chat bot .This is being ma
 - [ ] Scrolling of string in matrix
 - [ ] linking of LED matrix to the 2D array in code
 
-### Ansh Chawla
+#### Ansh Chawla
 
 - [x] Guide everyone
 - [x] link files
 
-### Harsh Kumar
+#### Harsh Kumar
 
 - [x] Guide everyone
 - [x] Write code and design interface for telegram chat bot
 
-### Shubham Singla
+#### Shubham Singla
 
 - [x] Guide everyone
 - [x] Write code and design interface for telegram chat bot
 
-### Ankit Rupal
+#### Ankit Rupal
 
 - [x] Implement Character mapping for letter A , B , C , 1
 - [x] Write code for compiling Character map arrays into dict
 
-### Mayur Garg
+#### Sahil Ahmed
+
+- [x] Implemented Character mapping for letter D , E , F , J , K , L , 2 , 4
+
+#### Mayur Garg
 
 - [x] Implement Character mapping for letter G , H , I , 3
 
-### Saksham
-
-- [x] Implemented Character mapping for letter Y , Z , ! , 3
-
-### Kanishk
+#### Kanishk
 
 - [x] Implemented Character mapping for letter M , N , O , 5
 
-### Mayank
+#### Lakshay
+
+- [x] Implemented Character mapping for letter P , Q , R , 6
+
+#### Rohan
+
+- [x] Implemented Character mapping for letter S , T , U , 7
+
+#### Mayank
 
 - [x] Implemented Character mapping for letter V , W , X , 8
+
+#### Saksham
+
+- [x] Implemented Character mapping for letter Y , Z , ! , 9
 
 &nbsp;
 
