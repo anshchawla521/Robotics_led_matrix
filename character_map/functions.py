@@ -6,5 +6,6 @@ def print_matrix(li):
             else:
                 print("*",end = " ")
         print("")
+        
     print("")
 #end of program
