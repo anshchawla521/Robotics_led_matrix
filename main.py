@@ -6,6 +6,8 @@ import character_map
 
 h=0
 messages_list=[]
+messages = ["hello" , "world"]
+led_matrix = [[] , [] , [] ,[] ,[] , [] , [] ] #7*45 (7*40 be the visisble section)
 s=set()
 quotes = [
     '1. Celebarting 100th aniversary of PEC',
@@ -18,7 +20,7 @@ quotes = [
 
 
 bot_token=credentials.bot_token
-bot = telebot.TeleBot(token = bot_token)
+bot = telebot.TeleBot(bot_token)
 
 def check_len():
     '''this function is checking the length of the message list if exceedes 1000 then delete 500 elements '''
@@ -72,4 +74,22 @@ def get_message():
         
 
 if __name__ == '__main__':
-    get_message() # implement a loop so that this bot checks for messages every 10 seconds or maybe multi threading
+    #get_message() # implement a loop so that this bot checks for messages every 10 seconds or maybe multi threading
+
+    message_mylist = list('helloworld')
+    while len(message_mylist) != 0:
+        if len(led_matrix[0]) >= 40 :
+            for row in led_matrix:
+                row.pop(0)
+        if len(led_matrix[0]) < 40 :
+            for col_num in range(0,5):
+                #loop so that loop runs for all columns in character maps
+                for row_num, row in enumerate(led_matrix):
+                    # insert the col_num index element of rows of character map into the led_matrix array
+                    row.append(character_map.map_of_letters[message_mylist[0].upper()][row_num][col_num])
+            for row in led_matrix:
+                #insert empty column / spacing between characters
+                row.append(' ')
+            message_mylist.pop(0)
+        character_map.print_matrix(led_matrix)
+    

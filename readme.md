@@ -11,6 +11,8 @@ Led matrix which displays messages sent to a telegram chat bot .This is being ma
 - [x] Implement the telegram bot using API
 - [ ] Improve Interface for Telegram Chatbot
 - [x] Define Character Map
+- [ ] insert character mao for small case letters(including ' ' , ':' , ',')
+- [ ] multi threading.
 - [ ] Displaying of string in matrix
 - [ ] Scrolling of string in matrix
 - [ ] linking of LED matrix to the 2D array in code
